@@ -208,7 +208,7 @@ conda env create -f environment.yml
 conda activate HunyuanVideo
 
 # 3. Install pip dependencies
-python -m pip install -r requirements.txt
+python -m pip install -r requirements_xdit.txt
 
 # 4. Install flash attention v2 for acceleration (requires CUDA 11.8 or above)
 python -m pip install ninja
